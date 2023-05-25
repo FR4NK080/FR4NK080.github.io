@@ -8,6 +8,21 @@ para los fonts */
     font-family: 'rubik', sans-serif;
     font-weight: 300;
 }
-a:active{
-    color: black;
+.header{
+    padding-top: 70px;
+    background-color:rgb(17, 25, 56);
+    padding-bottom: 70px;
+}
+.img-header{
+    float: none;
+    text-align: center;
+    border-radius: 50%;
+    max-width: 50%;
+    border: 10px solid rgba(0,0,0,0.4);
+}
+.text-header{
+    color: #ffffff;
+    font-family: 'rajdhani', sans-serif;
+    font-weight: 500;
+    text-align: justify;
 }

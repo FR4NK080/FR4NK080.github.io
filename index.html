@@ -10,16 +10,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600;700&family=Rubik:wght@300;500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/399af62280.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navi navbar navbar-expand-lg">
+    <nav class="navi navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="assets/imgs/logo.png"></a>
+            <a class="navbar-brand d-lg-inline-flex" href="#"></a>
+                <img src="assets/imgs/logo.png" alt="logo" width="120" height="40">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav navbar-nav-scroll">
                     <a class="nav-link active text-light" aria-current="page" href="#Home">Home</a>
                     <a class="nav-link text-light" href="#About">About</a>
                     <a class="nav-link text-light" href="#Skills">Skills</a>
@@ -32,12 +34,30 @@
         </div>
     </nav>
     <!--Aqui va el inicio de perfil, foto hello i'm, nombre, carrera, correo,telefono,linkedin-->
-    <header id="Home" >
-
+    <header class="header"id="Home">
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col-lg-6 col-sm-12 justify-content-center text-header">
+                    <h4>Hello i'm</h4>
+                    <h2>Franco Barbieri</h2>
+                    <h4>Robotics enginner and web developer</h4>
+                    <p><i class="fa-solid fa-envelope"></i> francobardiaz@gmail.com</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i> (+56) 967867747</p>
+                    <div class="d-flex">
+                        <a href="https://web.facebook.com/franco.barbieri.370/"> <i class="fa-brands fa-facebook p-3" style="color: #ffffff;"></i></a>
+                        <a href="https://github.com/FR4NK080"><i class="fa-brands fa-github p-3" style="color: #ffffff;"></i></a>
+                        <a href="https://www.linkedin.com/in/franco-barbieri-diaz/"><i class="fa-brands fa-linkedin p-3" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>            
+                <div class="col-lg-6 col-sm-12">
+                <img src="assets/imgs/foto perfil.jpeg" alt="foto de perfil" class="img-header">
+                </div>
+            </div>
+        </div>
     </header>
     <!--About me y lenguajes o programas de manejo-->
     <main id="About">
-
+        
     </main>
     <!--Skills-->
     <section id="Skills">
@@ -61,7 +81,7 @@
     </section>
     <!--por definir-->
     <footer>
-        <p>All rights reserved Franco Barbieri @2023</p>
+        <p class="text-center">All rights reserved Franco Barbieri @2023</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
