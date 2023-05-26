@@ -2,6 +2,9 @@
 font-family: 'Rubik', sans-serif;
 para los fonts */
 /*Navbar*/
+body{
+    background-color:rgb(17, 25, 56) ;
+}
 .navi{
     background-color:rgb(17, 25, 56);
     color: #ffffff;
@@ -15,14 +18,42 @@ para los fonts */
 }
 .img-header{
     float: none;
-    text-align: center;
     border-radius: 50%;
     max-width: 50%;
     border: 10px solid rgba(0,0,0,0.4);
+    margin-left: 11em;
 }
 .text-header{
     color: #ffffff;
     font-family: 'rajdhani', sans-serif;
     font-weight: 500;
     text-align: justify;
+}
+.about{
+    color: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer{
+    color: #ffffff;
+}
+.img-about{
+    width: 50%;
+    height: 85%;
+    margin-left: 125px;
+}
+.experience{
+    color: #ffffff;
+    text-align: center;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+}
+.cards{
+    font-family: 'rubik', sans-serif;
+    font-weight: 300;
+    color:rgb(17, 25, 56);
+    margin-bottom: 20px;
 }

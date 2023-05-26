@@ -14,17 +14,17 @@
 </head>
 <body>
     <nav class="navi navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand d-lg-inline-flex" href="#"></a>
                 <img src="assets/imgs/logo.png" alt="logo" width="120" height="40">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav navbar-nav-scroll">
                     <a class="nav-link active text-light" aria-current="page" href="#Home">Home</a>
                     <a class="nav-link text-light" href="#About">About</a>
-                    <a class="nav-link text-light" href="#Skills">Skills</a>
+                    <!--<a class="nav-link text-light" href="#Skills">Skills</a>-->
                     <a class="nav-link text-light" href="#Experiences">Experiences</a>
                     <a class="nav-link text-light" href="#Portfolio">Portfolio</a>
                     <a class="nav-link text-light" href="#Portfolio">Coments</a>
@@ -57,10 +57,10 @@
     </header>
     <!--About me y lenguajes o programas de manejo-->
     <main id="About">
-        <div class="container text center">
+        <div class="container text center about">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
-                    <img src="./assets/imgs/pc buddy.jpg" alt="persona en el computador">
+                    <img src="./assets/imgs/pc buddy.png" alt="persona en el computador" class="img-about">
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <h1>About me</h1>
@@ -69,23 +69,80 @@
                     </p>
                     <ul>
                         <li><span>C++</span></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><span>Python</span></li>
+                        <li><span>Teamwork</span></li>
+                        <li><span>Team leader</span></li>
+                        <li><span>English</span></li>
+                        <li><span>Spanish</span></li>
                     </ul>
                 </div>
             </div>
         </div>
     </main>
-    <!--Skills-->
+    <!-- seccion para upgradear el cv, lo mas probable es que sea con JS Skills
     <section id="Skills">
-
-    </section>
+    
+    </section>-->
     <!--experiencia y estudios-->
     <section id="Experiences">
-
+        <div class="container experience">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 p-3">
+                    <h3>Education</h3>
+                    <!--Education Card university-->
+                    <div class="card cards">
+                        <div class="card-header">
+                            University Andrés Bello
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                            <p>Bachelor degree of engineering automotive and robotics</p>
+                            <footer class="blockquote-footer">2018-2022</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!--Education card Desafio latam-->
+                    <div class="card cards">
+                        <div class="card-header">
+                            Bootcamp Desafío Latam
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                            <p>Fullstack Javascript web-developer</p>
+                            <footer class="blockquote-footer">April,2023-April,2024</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 p-3">
+                    <h3>Experiences</h3>
+                    <!--Experience card delivery man-->
+                    <div class="card cards">
+                        <div class="card-header">
+                            Domino's Pizza
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                            <p>Delivery man at Domino's Pizza with my own vehicle</p>
+                            <footer class="blockquote-footer">2018-2019</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!--experience card intern-->
+                    <div class="card cards">
+                        <div class="card-header">
+                            Anamin Group LTDA.
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                            <p>Intern in Anamin group working on maintance of laboratory equipments </p>
+                            <footer class="blockquote-footer">Sept,2022-Jan,2023</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!--portafolio-->
     <section id="Portfolio">
@@ -100,7 +157,7 @@
 
     </section>
     <!--por definir-->
-    <footer>
+    <footer class="footer">
         <p class="text-center">All rights reserved Franco Barbieri @2023</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
