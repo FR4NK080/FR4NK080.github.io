@@ -57,25 +57,22 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'rubik', sans-serif;
     font-weight: 300;
     color:rgb(17, 25, 56);
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
+    display: block;
+    margin:auto;
+    justify-content: center;    
 }
 .portfolio{
     color: #ffffff;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
+    display: block;
+    margin:auto;
+    justify-content: center;
 }
 .img-iguana{
     height: 80%;
-}
-.card-p-1{
-    padding-left: 200px;
-}
-.card-p-4{
-    padding-left: 50px;
-}
-.card-p-3{
-    padding-left: 70px;
 }
 .contact{
     color: #ffffff;
