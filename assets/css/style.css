@@ -20,7 +20,7 @@ body{
     float: none;
     border-radius: 50%;
     max-width: 50%;
-    border: 10px solid rgba(0,0,0,0.4);
+    border: 10px solid rgb(249, 244, 244);
     margin-left: 11em;
 }
 .text-header{
